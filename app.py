@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("🕌 Kalkulator Zakat - BAZNAS Banyumas")
+st.title("🕌 Kalkulator Zakat - BAZNAS Kabupaten Banyumas 🕌")
 
 # Input nama
 nama = st.text_input("Siapa namamu?")
@@ -8,7 +8,7 @@ nama = st.text_input("Siapa namamu?")
 # Jika nama sudah diisi, tampilkan sapaan dan form perhitungan
 if nama:
     st.write(f"Assalamualaikum kak {nama}!")
-    st.write("Aku Raju, Kang Amil dari BAZNAS Kabupaten Banyumas. Salam kenal ya kak. Yuk kita hitung zakatmu! ✨")
+    st.write("Aku Raju, Kang Amil dari BAZNAS Kabupaten Banyumas. Salam kenal ya kak. Ini adalah mini aplikasi "resmi hitung cepat zakat" milik BAZNAS Kabupaten Banyumas. Yuk kita hitung zakatmu! ✨")
 
     st.write("### Masukkan Penghasilan Bulananmu")
     st.caption("Input nominal penghasilan tanpa titik pemisah ribuan yaa, kak!")
