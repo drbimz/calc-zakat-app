@@ -32,7 +32,7 @@ if nama:
         st.write(f"*Nishab Zakat:* Rp {nishab:,}")
 
         if besaran_zakat >= (nishab * kadar_zakat):
-            st.success(f"Alhamdulillah kak {nama}, kamu sudah wajib zakat yaa 🙌")
+            st.success(f"Alhamdulillah kak {nama}, kamu sudah wajib zakat yaa. Mau transfer atau lewat digital, kini lebih mudah. Tinggal klik link di bawah ini yaa 🙌")
             st.markdown('[💳 Rekening BAZNAS Banyumas](https://bazn.as/rekeningbms)', unsafe_allow_html=True)
             st.markdown('[🌐 Donasi Digital](https://baznasbanyumas.com)', unsafe_allow_html=True)
         else:
