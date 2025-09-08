@@ -17,7 +17,7 @@ nama = st.text_input("Siapa namamu?")
 
 if nama:
     st.write(f"Assalamualaikum kak {nama}!")
-    st.write("Aku Raju, Kang Amil dari BAZNAS Kabupaten Banyumas. Salam kenal ya kak. Yuk kita hitung zakatmu! ✨")
+    st.write("Aku Raju, Kang Amil dari BAZNAS Kabupaten Banyumas. Salam kenal ya kak. Ini adalah mini aplikasi resmi milik BAZNAS Kabupaten Banyumas untuk hitung cepat zakat. Yuk kita mulai hitung zakatmu! ✨")
 
     st.write("### Masukkan Penghasilan Bulananmu")
     st.caption("Ketik nominal penghasilan, otomatis akan diformat dengan titik pemisah ribuan ya kak!")
@@ -52,9 +52,9 @@ if nama:
         st.write(f"Nishab Zakat: Rp {nishab:,}".replace(",", "."))
 
         if total_penghasilan >= nishab:
-            st.success(f"Alhamdulillah kak {nama}, kamu sudah wajib zakat yaa 🙌")
+            st.success(f"Alhamdulillah kak {nama}, kamu sudah wajib zakat yaa. Mau transfer atau lewat digital, kini sudah lebih mudah. Tinggal klik link di bawah ini aja 🙌")
             st.markdown('[💳 Rekening BAZNAS Banyumas](https://bazn.as/rekeningbms)', unsafe_allow_html=True)
             st.markdown('[🌐 Donasi Digital](https://baznasbanyumas.com)', unsafe_allow_html=True)
         else:
-            st.info(f"Kamu belum wajib zakat kak {nama}. Semoga segera ditambah rezekinya. Amiin 🤲")
+            st.info(f"Kamu belum wajib zakat kak {nama}. Semoga segera Allah tambah rezekinya yaa. Amiin 🤲")
             st.markdown('[🌐 Website BAZNAS Banyumas](https://baznasbanyumas.com)', unsafe_allow_html=True)
