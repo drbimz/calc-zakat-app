@@ -36,5 +36,5 @@ if nama:
             st.markdown('[💳 Rekening BAZNAS Banyumas](https://bazn.as/rekeningbms)', unsafe_allow_html=True)
             st.markdown('[🌐 Donasi Digital](https://baznasbanyumas.com)', unsafe_allow_html=True)
         else:
-            st.info(f"Kamu belum wajib zakat kak {nama}. Semoga segera ditambah rezekinya. Amiin 🤲")
+            st.info(f"Kamu belum wajib zakat kak {nama}. Semoga segera ditambah rezekinya yaa. Amiin 🤲")
             st.markdown('[🌐 Website BAZNAS Banyumas](https://baznasbanyumas.com)', unsafe_allow_html=True)
